@@ -22,7 +22,7 @@ if ( ! defined( AMX_DATE_FORMAT ) ) {
 	define( 'AMX_DATE_FORMAT' , 'd/m/Y' );
 }
 
-if( ! defined( AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN ) ){
+if ( ! defined( AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN ) ) {
 	define( 'AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN' , 'woocommerce-taxonomies-coupons' );
 }
 

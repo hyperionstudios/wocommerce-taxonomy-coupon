@@ -11,7 +11,7 @@
  */
 function amx_display_woocommerce_is_not_active() { ?>
     <div class="error notice">
-        <p><?php _e( 'WooCommerce is not Active!, WooCommerce Taxonomies Coupons Requires WooCommerce to Operate.' , AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN); ?></p>
+        <p><?php _e( 'WooCommerce is not Active!, WooCommerce Taxonomies Coupons Requires WooCommerce to Operate.' , AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN ); ?></p>
     </div>
 <?php }
 
