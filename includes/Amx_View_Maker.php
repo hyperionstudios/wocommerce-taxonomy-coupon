@@ -34,7 +34,9 @@ class Amx_View_Maker {
 			<?php wp_nonce_field( 'woo_coupon' , 'woo_coupon' ); ?>
             <table class="wp-list-table widefat fixed striped pages">
                 <tr>
-                    <td><label for="free_shipping">Enable WooCommerce Taxonomies Coupon For This Coupon? </label></td>
+                    <td><label for="free_shipping">
+                            <?php _e( 'Enable WooCommerce Taxonomies Coupon For This Coupon?' , AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN ); ?>
+                        </label></td>
                     <td><input type="checkbox" class="checkbox" name="enable-woo-tax-coupon" id="enable-woo-tax-coupon"
                                data-checked="<?php echo $options; ?>" <?php if ( $options === 'yes' ) {
 							echo 'checked';
@@ -45,7 +47,9 @@ class Amx_View_Maker {
             <table class="wp-list-table widefat fixed striped pages" id="if_product_tax_enabled">
 
                 <tr>
-                    <td><label for="woo-tax-cop-select">Select Taxonomies</label></td>
+                    <td><label for="woo-tax-cop-select">
+                            <?php _e( 'Select Taxonomies' , AMX_WOOCOMMERCE_TAX_COUPONS_TEXT_DOMAIN ) ?>
+                        </label></td>
                     <td>
                         <select multiple="multiple" class="coupon-taxonomy" id="selected-taxonomies"
                                 style="width: 100%;" name="selected_taxonomies[]">
